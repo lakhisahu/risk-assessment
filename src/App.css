@@ -1,0 +1,149 @@
+.left{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80px;
+  background-color: rgb(7, 7, 210);
+  padding: 5px;
+}
+.top{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 2px rgb(246, 244, 244);
+  height: 60px;
+}
+.icon{
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 15px;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+i{
+  font-size: 18px;
+}
+.fa-users{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main{
+ 
+  height: 78vh;
+  margin-left: 120px;
+  margin-top: 10px;
+}
+b{
+  margin-left: 3px;
+}
+.fa-magnifying-glass{
+  position: relative;
+    top: 11px;
+    left: 26px;
+}
+.assesmentText{
+  width: 300px;
+ 
+  padding: 20px;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.assesmentBox{
+  border-bottom: 1px solid #b2a7a7;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+.assesmentBoxActive{
+  background-color: rgb(239 239 255);
+}
+.active{
+  color: blue !important;
+}
+.nav-link{
+  color: rgb(80, 77, 77);
+  font-weight: bold;
+}
+.nav{
+  margin-left: 20px;
+}
+.list-group-item {
+  width: 130px;
+  
+}
+.list-group-item.active{
+  background-color: orange;
+  color: white !important;
+}
+.top-logo{
+  float:right;
+  margin-top: 30px;
+  margin-right: 70px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.riskbutton{
+  margin-right: 86px;
+  margin-bottom: 10px;
+  float: right;
+  background-color: blue;
+  color: white;
+  border: none;
+  font-size: 14px;
+  padding: 7px 15px;
+
+  border-radius: 5px;
+}
+.form-label{
+  position: relative;
+  top: 17px;
+  left: 10px;
+  font-weight: bold;
+  font-size: 13px;
+}
+.selectInput{
+  width: "230px";
+  margin-right: "20px" ;
+}
+.valueInput{
+  width: "230px";
+}
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  margin-top: 1rem;
+  margin-right: 71px;
+}
+
+.pagination button {
+  width: 40px;
+  height: 40px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: transparent;
+  color: #000000;
+  border-color: #000000;
+  background-color: rgb(255, 255, 255);
+}
+
+.pagination button.active {
+  font-weight: 900;
+  border-color: #ffffff;
+  background: #000000;
+  color: #ffffff !important;
+}
