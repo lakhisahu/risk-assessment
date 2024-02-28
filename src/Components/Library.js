@@ -34,6 +34,7 @@ function Library() {
   }
   return (
     <>
+      <button className="riskbutton" data-bs-toggle="modal" data-bs-target="#exampleModal">Add Risk Scenario</button>
       <div className="main">
         {/* modal start */}
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -95,7 +96,7 @@ function Library() {
           </div>
         </div>
         {/* modal end */}
-        <button className="riskbutton" data-bs-toggle="modal" data-bs-target="#exampleModal">Add Risk Scenario</button>
+      
         <div className="libraryTopBar d-flex justify-content-between" style={{ width: "1036px" }}>
           <div className="d-flex">
             <i class="fa-solid fa-magnifying-glass" style={{ marginLeft: "10px" }}></i>

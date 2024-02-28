@@ -36,7 +36,7 @@ i{
  
   height: 78vh;
   margin-left: 120px;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 b{
   margin-left: 3px;
@@ -92,7 +92,8 @@ b{
   justify-content: space-between;
 }
 .riskbutton{
-  margin-right: 86px;
+  margin-right: 379px;
+  margin-top: 10px;
   margin-bottom: 10px;
   float: right;
   background-color: blue;
@@ -122,7 +123,7 @@ b{
   flex-wrap: wrap;
   justify-content: right;
   margin-top: 1rem;
-  margin-right: 71px;
+  margin-right: 367px;
 }
 
 .pagination button {
